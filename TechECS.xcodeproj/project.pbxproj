@@ -8,12 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		E25C3F9E22E9E5B000D71CCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25C3F9D22E9E5B000D71CCA /* AppDelegate.swift */; };
-		E25C3FA022E9E5B000D71CCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25C3F9F22E9E5B000D71CCA /* ViewController.swift */; };
 		E25C3FA322E9E5B000D71CCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25C3FA122E9E5B000D71CCA /* Main.storyboard */; };
 		E25C3FA522E9E5B100D71CCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E25C3FA422E9E5B100D71CCA /* Assets.xcassets */; };
 		E25C3FA822E9E5B100D71CCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25C3FA622E9E5B100D71CCA /* LaunchScreen.storyboard */; };
 		E25C3FB322E9E5B100D71CCA /* TechECSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25C3FB222E9E5B100D71CCA /* TechECSTests.swift */; };
 		E25C3FBE22E9E5B100D71CCA /* TechECSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25C3FBD22E9E5B100D71CCA /* TechECSUITests.swift */; };
+		E25C3FD522E9E61A00D71CCA /* AuthEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25C3FCE22E9E61900D71CCA /* AuthEndpoint.swift */; };
+		E25C3FD622E9E61A00D71CCA /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25C3FD022E9E61900D71CCA /* LoginResponse.swift */; };
+		E25C3FD722E9E61A00D71CCA /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25C3FD222E9E61900D71CCA /* NetworkLayer.swift */; };
+		E25C3FD822E9E61A00D71CCA /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25C3FD322E9E61900D71CCA /* Response.swift */; };
+		E25C3FD922E9E61A00D71CCA /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25C3FD422E9E61900D71CCA /* Endpoint.swift */; };
+		E25C3FDC22E9EE8900D71CCA /* NYCPublicationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25C3FDB22E9EE8900D71CCA /* NYCPublicationProtocol.swift */; };
+		E25C3FDE22E9EE9F00D71CCA /* NYCPublicationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25C3FDD22E9EE9F00D71CCA /* NYCPublicationPresenter.swift */; };
+		E25C3FE022E9EEAE00D71CCA /* NYCInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25C3FDF22E9EEAE00D71CCA /* NYCInteractor.swift */; };
+		E25C3FE222E9EEC200D71CCA /* NYCRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25C3FE122E9EEC200D71CCA /* NYCRouter.swift */; };
+		E25C3FE422E9EECE00D71CCA /* NYCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25C3FE322E9EECE00D71CCA /* NYCViewController.swift */; };
+		E25C3FE622E9F36400D71CCA /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25C3FE522E9F36400D71CCA /* Utilities.swift */; };
+		E25C3FE822E9F39000D71CCA /* ProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25C3FE722E9F39000D71CCA /* ProgressIndicator.swift */; };
+		E25C3FEC22E9F65700D71CCA /* NYCArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25C3FEA22E9F65700D71CCA /* NYCArticleCell.swift */; };
+		E25C3FED22E9F65700D71CCA /* NYCArticleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E25C3FEB22E9F65700D71CCA /* NYCArticleCell.xib */; };
+		E2E2D8DC22EA685B00905B27 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E2D8DB22EA685B00905B27 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +50,6 @@
 /* Begin PBXFileReference section */
 		E25C3F9A22E9E5B000D71CCA /* TechECS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechECS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E25C3F9D22E9E5B000D71CCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E25C3F9F22E9E5B000D71CCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E25C3FA222E9E5B000D71CCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E25C3FA422E9E5B100D71CCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E25C3FA722E9E5B100D71CCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +60,21 @@
 		E25C3FB922E9E5B100D71CCA /* TechECSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechECSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E25C3FBD22E9E5B100D71CCA /* TechECSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechECSUITests.swift; sourceTree = "<group>"; };
 		E25C3FBF22E9E5B100D71CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E25C3FCE22E9E61900D71CCA /* AuthEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthEndpoint.swift; sourceTree = "<group>"; };
+		E25C3FD022E9E61900D71CCA /* LoginResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		E25C3FD222E9E61900D71CCA /* NetworkLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkLayer.swift; sourceTree = "<group>"; };
+		E25C3FD322E9E61900D71CCA /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		E25C3FD422E9E61900D71CCA /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		E25C3FDB22E9EE8900D71CCA /* NYCPublicationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCPublicationProtocol.swift; sourceTree = "<group>"; };
+		E25C3FDD22E9EE9F00D71CCA /* NYCPublicationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCPublicationPresenter.swift; sourceTree = "<group>"; };
+		E25C3FDF22E9EEAE00D71CCA /* NYCInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCInteractor.swift; sourceTree = "<group>"; };
+		E25C3FE122E9EEC200D71CCA /* NYCRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCRouter.swift; sourceTree = "<group>"; };
+		E25C3FE322E9EECE00D71CCA /* NYCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCViewController.swift; sourceTree = "<group>"; };
+		E25C3FE522E9F36400D71CCA /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		E25C3FE722E9F39000D71CCA /* ProgressIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressIndicator.swift; sourceTree = "<group>"; };
+		E25C3FEA22E9F65700D71CCA /* NYCArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCArticleCell.swift; sourceTree = "<group>"; };
+		E25C3FEB22E9F65700D71CCA /* NYCArticleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NYCArticleCell.xib; sourceTree = "<group>"; };
+		E2E2D8DB22EA685B00905B27 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +125,17 @@
 		E25C3F9C22E9E5B000D71CCA /* TechECS */ = {
 			isa = PBXGroup;
 			children = (
+				E25C3FE722E9F39000D71CCA /* ProgressIndicator.swift */,
+				E25C3FE522E9F36400D71CCA /* Utilities.swift */,
 				E25C3F9D22E9E5B000D71CCA /* AppDelegate.swift */,
-				E25C3F9F22E9E5B000D71CCA /* ViewController.swift */,
+				E25C3FDA22E9EE5B00D71CCA /* NYCPublicationArticleVC */,
 				E25C3FA122E9E5B000D71CCA /* Main.storyboard */,
 				E25C3FA422E9E5B100D71CCA /* Assets.xcassets */,
 				E25C3FA622E9E5B100D71CCA /* LaunchScreen.storyboard */,
 				E25C3FA922E9E5B100D71CCA /* Info.plist */,
+				E25C3FE922E9F61F00D71CCA /* UITableViewCell */,
+				E25C3FCB22E9E61900D71CCA /* Services */,
+				E2E2D8DB22EA685B00905B27 /* Extension.swift */,
 			);
 			path = TechECS;
 			sourceTree = "<group>";
@@ -123,6 +156,72 @@
 				E25C3FBF22E9E5B100D71CCA /* Info.plist */,
 			);
 			path = TechECSUITests;
+			sourceTree = "<group>";
+		};
+		E25C3FCB22E9E61900D71CCA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E25C3FCC22E9E61900D71CCA /* Network */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E25C3FCC22E9E61900D71CCA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E25C3FCD22E9E61900D71CCA /* Endpoints */,
+				E25C3FCF22E9E61900D71CCA /* Responses */,
+				E25C3FD122E9E61900D71CCA /* Base */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E25C3FCD22E9E61900D71CCA /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				E25C3FCE22E9E61900D71CCA /* AuthEndpoint.swift */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		E25C3FCF22E9E61900D71CCA /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				E25C3FD022E9E61900D71CCA /* LoginResponse.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		E25C3FD122E9E61900D71CCA /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E25C3FD222E9E61900D71CCA /* NetworkLayer.swift */,
+				E25C3FD322E9E61900D71CCA /* Response.swift */,
+				E25C3FD422E9E61900D71CCA /* Endpoint.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		E25C3FDA22E9EE5B00D71CCA /* NYCPublicationArticleVC */ = {
+			isa = PBXGroup;
+			children = (
+				E25C3FDB22E9EE8900D71CCA /* NYCPublicationProtocol.swift */,
+				E25C3FDD22E9EE9F00D71CCA /* NYCPublicationPresenter.swift */,
+				E25C3FDF22E9EEAE00D71CCA /* NYCInteractor.swift */,
+				E25C3FE122E9EEC200D71CCA /* NYCRouter.swift */,
+				E25C3FE322E9EECE00D71CCA /* NYCViewController.swift */,
+			);
+			name = NYCPublicationArticleVC;
+			path = Modules/NYCPublicationArticleVC;
+			sourceTree = "<group>";
+		};
+		E25C3FE922E9F61F00D71CCA /* UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E25C3FEA22E9F65700D71CCA /* NYCArticleCell.swift */,
+				E25C3FEB22E9F65700D71CCA /* NYCArticleCell.xib */,
+			);
+			path = UITableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E25C3FA822E9E5B100D71CCA /* LaunchScreen.storyboard in Resources */,
+				E25C3FED22E9F65700D71CCA /* NYCArticleCell.xib in Resources */,
 				E25C3FA522E9E5B100D71CCA /* Assets.xcassets in Resources */,
 				E25C3FA322E9E5B000D71CCA /* Main.storyboard in Resources */,
 			);
@@ -256,8 +356,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E25C3FA022E9E5B000D71CCA /* ViewController.swift in Sources */,
+				E2E2D8DC22EA685B00905B27 /* Extension.swift in Sources */,
+				E25C3FE422E9EECE00D71CCA /* NYCViewController.swift in Sources */,
+				E25C3FD922E9E61A00D71CCA /* Endpoint.swift in Sources */,
 				E25C3F9E22E9E5B000D71CCA /* AppDelegate.swift in Sources */,
+				E25C3FE822E9F39000D71CCA /* ProgressIndicator.swift in Sources */,
+				E25C3FD622E9E61A00D71CCA /* LoginResponse.swift in Sources */,
+				E25C3FE222E9EEC200D71CCA /* NYCRouter.swift in Sources */,
+				E25C3FD722E9E61A00D71CCA /* NetworkLayer.swift in Sources */,
+				E25C3FE622E9F36400D71CCA /* Utilities.swift in Sources */,
+				E25C3FDE22E9EE9F00D71CCA /* NYCPublicationPresenter.swift in Sources */,
+				E25C3FEC22E9F65700D71CCA /* NYCArticleCell.swift in Sources */,
+				E25C3FD822E9E61A00D71CCA /* Response.swift in Sources */,
+				E25C3FD522E9E61A00D71CCA /* AuthEndpoint.swift in Sources */,
+				E25C3FDC22E9EE8900D71CCA /* NYCPublicationProtocol.swift in Sources */,
+				E25C3FE022E9EEAE00D71CCA /* NYCInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
