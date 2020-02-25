@@ -1,10 +1,6 @@
 //
 //  NYCViewController.swift
 //  TechECS
-//
-//  Created by Ahmed Durrani on 25/07/2019.
-//  Copyright © 2019 TeachEase solution. All rights reserved.
-//
 
 import UIKit
 
@@ -17,14 +13,15 @@ class NYCViewController: UIViewController , NYCPublicationProtocol {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         tblView.registerCells([
             NYCArticleCell.self
             ])
-
+        tblView.rowHeight = UITableView.automaticDimension
+        tblView.estimatedRowHeight = 44
         showProgressIndicator(view: self.view)
+        
+        //MARK: - API Call
         presenter?.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
     
     
@@ -32,14 +29,11 @@ class NYCViewController: UIViewController , NYCPublicationProtocol {
         super.viewWillAppear(animated)
         presenter?.viewWillAppear(navigationController: self.navigationController!)
     }
-
     func showItems(list: [DocsNYTIME]) {
         itemList = list
     }
-    
     func showError(_ message: String?) {
         hideProgressIndicator(view: self.view)
-
     }
     
     func success(_ message: String?) {
@@ -49,6 +43,7 @@ class NYCViewController: UIViewController , NYCPublicationProtocol {
         tblView.reloadData()
     }
 }
+//MARK: - TableViewDelegate And DataSource Methods
 
 extension NYCViewController : UITableViewDelegate, UITableViewDataSource {
     
@@ -58,21 +53,18 @@ extension NYCViewController : UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
         return itemList.count
-        
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(with: NYCArticleCell.self, for: indexPath)
         cell.config(obj: self.itemList[indexPath.row])
-
         return cell
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 114.0
+        return UITableView.automaticDimension
     }
     
 }

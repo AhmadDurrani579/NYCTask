@@ -7,11 +7,9 @@ import Foundation
 struct NetworkLayer {
     struct NetworkLayerError: LocalizedError {
         let message: String
-        
         var errorDescription: String? {
             return message
         }
-        
         var localizedDescription: String {
             return message
         }
@@ -61,9 +59,8 @@ struct NetworkLayer {
                 return
             }
             
-            let dataString = String(data: data, encoding: .utf8)
-            print(dataString)
-            
+//            let dataString = String(data: data, encoding: .utf8)
+//            print(dataString as Any)
             guard let object = try? JSONDecoder().decode(with, from: data) else {
                 handle(.failure(.init(message: "Could not parse data")))
                 return
@@ -81,15 +78,15 @@ struct NetworkLayer {
     }
     
     static func createDataBody(withParameters params: [String: String]?, media: [HTTPMultipart]?, boundary: String) -> Data {
-        let lineBreak = "\r\n"
-        var body = Data()
+        _ = "\r\n"
+        let body = Data()
         if let parameters = params {
-            for (key, value) in parameters {
+            for (_, _) in parameters {
             }
         }
         
         if let media = media {
-            for photo in media {
+            for _ in media {
             }
         }
         

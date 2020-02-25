@@ -2,8 +2,6 @@
 //  NYCPublicationProtocol.swift
 //  TechECS
 //
-//  Created by Ahmed Durrani on 25/07/2019.
-//  Copyright © 2019 TeachEase solution. All rights reserved.
 //
 
 import Foundation
@@ -48,5 +46,4 @@ protocol NYCPublicationPresenterProtocol : class {
 protocol NYCPublicationRouterProtocol {
     var viewController : UIViewController? {get set}
     static func asssembleModule() -> UIViewController
-    //    func pushMainVC(navigationConroller:UINavigationController)
 }

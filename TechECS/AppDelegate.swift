@@ -1,10 +1,6 @@
 //
 //  AppDelegate.swift
 //  TechECS
-//
-//  Created by Ahmed Durrani on 25/07/2019.
-//  Copyright © 2019 TeachEase solution. All rights reserved.
-//
 
 import UIKit
 

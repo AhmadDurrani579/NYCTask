@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E2015D512405223400FCE761 /* TestCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2015D502405223400FCE761 /* TestCustomCell.swift */; };
 		E25C3F9E22E9E5B000D71CCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25C3F9D22E9E5B000D71CCA /* AppDelegate.swift */; };
 		E25C3FA322E9E5B000D71CCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25C3FA122E9E5B000D71CCA /* Main.storyboard */; };
 		E25C3FA522E9E5B100D71CCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E25C3FA422E9E5B100D71CCA /* Assets.xcassets */; };
@@ -26,7 +27,7 @@
 		E25C3FE622E9F36400D71CCA /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25C3FE522E9F36400D71CCA /* Utilities.swift */; };
 		E25C3FE822E9F39000D71CCA /* ProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25C3FE722E9F39000D71CCA /* ProgressIndicator.swift */; };
 		E25C3FEC22E9F65700D71CCA /* NYCArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25C3FEA22E9F65700D71CCA /* NYCArticleCell.swift */; };
-		E25C3FED22E9F65700D71CCA /* NYCArticleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E25C3FEB22E9F65700D71CCA /* NYCArticleCell.xib */; };
+		E2645E5B23213FA6000946E0 /* NYCArticleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2645E5D23213FA6000946E0 /* NYCArticleCell.xib */; };
 		E2E2D8DC22EA685B00905B27 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E2D8DB22EA685B00905B27 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,16 +49,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E25C3F9A22E9E5B000D71CCA /* TechECS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechECS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2015D502405223400FCE761 /* TestCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomCell.swift; sourceTree = "<group>"; };
+		E25C3F9A22E9E5B000D71CCA /* NYCTime Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NYCTime Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E25C3F9D22E9E5B000D71CCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E25C3FA222E9E5B000D71CCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E25C3FA422E9E5B100D71CCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E25C3FA722E9E5B100D71CCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E25C3FA922E9E5B100D71CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E25C3FAE22E9E5B100D71CCA /* TechECSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechECSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E25C3FAE22E9E5B100D71CCA /* NYCTime TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NYCTime TaskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E25C3FB222E9E5B100D71CCA /* TechECSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechECSTests.swift; sourceTree = "<group>"; };
 		E25C3FB422E9E5B100D71CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E25C3FB922E9E5B100D71CCA /* TechECSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechECSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E25C3FB922E9E5B100D71CCA /* NYCTime TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NYCTime TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E25C3FBD22E9E5B100D71CCA /* TechECSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechECSUITests.swift; sourceTree = "<group>"; };
 		E25C3FBF22E9E5B100D71CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E25C3FCE22E9E61900D71CCA /* AuthEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthEndpoint.swift; sourceTree = "<group>"; };
@@ -73,7 +75,7 @@
 		E25C3FE522E9F36400D71CCA /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		E25C3FE722E9F39000D71CCA /* ProgressIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressIndicator.swift; sourceTree = "<group>"; };
 		E25C3FEA22E9F65700D71CCA /* NYCArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCArticleCell.swift; sourceTree = "<group>"; };
-		E25C3FEB22E9F65700D71CCA /* NYCArticleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NYCArticleCell.xib; sourceTree = "<group>"; };
+		E2645E5C23213FA6000946E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/NYCArticleCell.xib; sourceTree = "<group>"; };
 		E2E2D8DB22EA685B00905B27 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,9 +117,9 @@
 		E25C3F9B22E9E5B000D71CCA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E25C3F9A22E9E5B000D71CCA /* TechECS.app */,
-				E25C3FAE22E9E5B100D71CCA /* TechECSTests.xctest */,
-				E25C3FB922E9E5B100D71CCA /* TechECSUITests.xctest */,
+				E25C3F9A22E9E5B000D71CCA /* NYCTime Task.app */,
+				E25C3FAE22E9E5B100D71CCA /* NYCTime TaskTests.xctest */,
+				E25C3FB922E9E5B100D71CCA /* NYCTime TaskUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,6 +147,7 @@
 			children = (
 				E25C3FB222E9E5B100D71CCA /* TechECSTests.swift */,
 				E25C3FB422E9E5B100D71CCA /* Info.plist */,
+				E2015D502405223400FCE761 /* TestCustomCell.swift */,
 			);
 			path = TechECSTests;
 			sourceTree = "<group>";
@@ -219,7 +222,7 @@
 			isa = PBXGroup;
 			children = (
 				E25C3FEA22E9F65700D71CCA /* NYCArticleCell.swift */,
-				E25C3FEB22E9F65700D71CCA /* NYCArticleCell.xib */,
+				E2645E5D23213FA6000946E0 /* NYCArticleCell.xib */,
 			);
 			path = UITableViewCell;
 			sourceTree = "<group>";
@@ -227,9 +230,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E25C3F9922E9E5B000D71CCA /* TechECS */ = {
+		E25C3F9922E9E5B000D71CCA /* NYCTime Task */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E25C3FC222E9E5B100D71CCA /* Build configuration list for PBXNativeTarget "TechECS" */;
+			buildConfigurationList = E25C3FC222E9E5B100D71CCA /* Build configuration list for PBXNativeTarget "NYCTime Task" */;
 			buildPhases = (
 				E25C3F9622E9E5B000D71CCA /* Sources */,
 				E25C3F9722E9E5B000D71CCA /* Frameworks */,
@@ -239,14 +242,14 @@
 			);
 			dependencies = (
 			);
-			name = TechECS;
+			name = "NYCTime Task";
 			productName = TechECS;
-			productReference = E25C3F9A22E9E5B000D71CCA /* TechECS.app */;
+			productReference = E25C3F9A22E9E5B000D71CCA /* NYCTime Task.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E25C3FAD22E9E5B100D71CCA /* TechECSTests */ = {
+		E25C3FAD22E9E5B100D71CCA /* NYCTime TaskTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E25C3FC522E9E5B100D71CCA /* Build configuration list for PBXNativeTarget "TechECSTests" */;
+			buildConfigurationList = E25C3FC522E9E5B100D71CCA /* Build configuration list for PBXNativeTarget "NYCTime TaskTests" */;
 			buildPhases = (
 				E25C3FAA22E9E5B100D71CCA /* Sources */,
 				E25C3FAB22E9E5B100D71CCA /* Frameworks */,
@@ -257,14 +260,14 @@
 			dependencies = (
 				E25C3FB022E9E5B100D71CCA /* PBXTargetDependency */,
 			);
-			name = TechECSTests;
+			name = "NYCTime TaskTests";
 			productName = TechECSTests;
-			productReference = E25C3FAE22E9E5B100D71CCA /* TechECSTests.xctest */;
+			productReference = E25C3FAE22E9E5B100D71CCA /* NYCTime TaskTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E25C3FB822E9E5B100D71CCA /* TechECSUITests */ = {
+		E25C3FB822E9E5B100D71CCA /* NYCTime TaskUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E25C3FC822E9E5B100D71CCA /* Build configuration list for PBXNativeTarget "TechECSUITests" */;
+			buildConfigurationList = E25C3FC822E9E5B100D71CCA /* Build configuration list for PBXNativeTarget "NYCTime TaskUITests" */;
 			buildPhases = (
 				E25C3FB522E9E5B100D71CCA /* Sources */,
 				E25C3FB622E9E5B100D71CCA /* Frameworks */,
@@ -275,9 +278,9 @@
 			dependencies = (
 				E25C3FBB22E9E5B100D71CCA /* PBXTargetDependency */,
 			);
-			name = TechECSUITests;
+			name = "NYCTime TaskUITests";
 			productName = TechECSUITests;
-			productReference = E25C3FB922E9E5B100D71CCA /* TechECSUITests.xctest */;
+			productReference = E25C3FB922E9E5B100D71CCA /* NYCTime TaskUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -303,7 +306,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E25C3F9522E9E5B000D71CCA /* Build configuration list for PBXProject "TechECS" */;
+			buildConfigurationList = E25C3F9522E9E5B000D71CCA /* Build configuration list for PBXProject "NYCTime Task" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -316,9 +319,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E25C3F9922E9E5B000D71CCA /* TechECS */,
-				E25C3FAD22E9E5B100D71CCA /* TechECSTests */,
-				E25C3FB822E9E5B100D71CCA /* TechECSUITests */,
+				E25C3F9922E9E5B000D71CCA /* NYCTime Task */,
+				E25C3FAD22E9E5B100D71CCA /* NYCTime TaskTests */,
+				E25C3FB822E9E5B100D71CCA /* NYCTime TaskUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -329,7 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E25C3FA822E9E5B100D71CCA /* LaunchScreen.storyboard in Resources */,
-				E25C3FED22E9F65700D71CCA /* NYCArticleCell.xib in Resources */,
+				E2645E5B23213FA6000946E0 /* NYCArticleCell.xib in Resources */,
 				E25C3FA522E9E5B100D71CCA /* Assets.xcassets in Resources */,
 				E25C3FA322E9E5B000D71CCA /* Main.storyboard in Resources */,
 			);
@@ -378,6 +381,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2015D512405223400FCE761 /* TestCustomCell.swift in Sources */,
 				E25C3FB322E9E5B100D71CCA /* TechECSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,12 +399,12 @@
 /* Begin PBXTargetDependency section */
 		E25C3FB022E9E5B100D71CCA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E25C3F9922E9E5B000D71CCA /* TechECS */;
+			target = E25C3F9922E9E5B000D71CCA /* NYCTime Task */;
 			targetProxy = E25C3FAF22E9E5B100D71CCA /* PBXContainerItemProxy */;
 		};
 		E25C3FBB22E9E5B100D71CCA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E25C3F9922E9E5B000D71CCA /* TechECS */;
+			target = E25C3F9922E9E5B000D71CCA /* NYCTime Task */;
 			targetProxy = E25C3FBA22E9E5B100D71CCA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -420,6 +424,14 @@
 				E25C3FA722E9E5B100D71CCA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E2645E5D23213FA6000946E0 /* NYCArticleCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2645E5C23213FA6000946E0 /* Base */,
+			);
+			name = NYCArticleCell.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -594,7 +606,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TechECS.app/TechECS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NYCTime Task.app/NYCTime Task";
 			};
 			name = Debug;
 		};
@@ -615,7 +627,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TechECS.app/TechECS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NYCTime Task.app/NYCTime Task";
 			};
 			name = Release;
 		};
@@ -662,7 +674,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E25C3F9522E9E5B000D71CCA /* Build configuration list for PBXProject "TechECS" */ = {
+		E25C3F9522E9E5B000D71CCA /* Build configuration list for PBXProject "NYCTime Task" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E25C3FC022E9E5B100D71CCA /* Debug */,
@@ -671,7 +683,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E25C3FC222E9E5B100D71CCA /* Build configuration list for PBXNativeTarget "TechECS" */ = {
+		E25C3FC222E9E5B100D71CCA /* Build configuration list for PBXNativeTarget "NYCTime Task" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E25C3FC322E9E5B100D71CCA /* Debug */,
@@ -680,7 +692,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E25C3FC522E9E5B100D71CCA /* Build configuration list for PBXNativeTarget "TechECSTests" */ = {
+		E25C3FC522E9E5B100D71CCA /* Build configuration list for PBXNativeTarget "NYCTime TaskTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E25C3FC622E9E5B100D71CCA /* Debug */,
@@ -689,7 +701,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E25C3FC822E9E5B100D71CCA /* Build configuration list for PBXNativeTarget "TechECSUITests" */ = {
+		E25C3FC822E9E5B100D71CCA /* Build configuration list for PBXNativeTarget "NYCTime TaskUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E25C3FC922E9E5B100D71CCA /* Debug */,

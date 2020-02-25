@@ -2,8 +2,7 @@
 //  ProgressIndicator.swift
 //  VIPER-demo
 //
-//  Created by Bipin on 7/3/18.
-//  Copyright © 2018 Tootle. All rights reserved.
+//  Created by Ahmad .
 //
 
 import Foundation

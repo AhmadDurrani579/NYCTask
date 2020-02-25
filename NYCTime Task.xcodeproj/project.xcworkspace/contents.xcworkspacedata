@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TechECS.xcodeproj">
+      location = "self:/Users/ahmed/Documents/TechECS/NYCTime Task.xcodeproj">
    </FileRef>
 </Workspace>

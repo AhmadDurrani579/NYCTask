@@ -1,9 +1,6 @@
 //
 //  Utilities.swift
-//  Grubs-up
 //
-//  Created by Ahmed Durrani on 26/05/2019.
-//  Copyright © 2019 CyberHost. All rights reserved.
 //
 
 import Foundation
@@ -13,9 +10,7 @@ let PROGRESS_INDICATOR_VIEW_TAG:Int = 10
 
 /* Show Progress Indicator */
 func showProgressIndicator(view:UIView){
-    
     view.isUserInteractionEnabled = false
-    
     // Create and add the view to the screen.
     let progressIndicator = ProgressIndicator(text: "Please wait..")
     progressIndicator.tag = PROGRESS_INDICATOR_VIEW_TAG

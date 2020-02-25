@@ -2,8 +2,6 @@
 //  NYCInteractor.swift
 //  TechECS
 //
-//  Created by Ahmed Durrani on 25/07/2019.
-//  Copyright © 2019 TeachEase solution. All rights reserved.
 //
 
 import Foundation
@@ -19,7 +17,6 @@ class NYCInteractor : NYCPublicationInteractorInputProtocol {
             switch result {
             case .success(let response):
                 if response.status == "OK" {
-//                    context?.didLoadReceipeList(list: response.data!)
                     context?.didLoadArticleList(list: (response.data?.doctLit)!)
                     context?.didSucces(with: response.copyright)
 
@@ -29,9 +26,6 @@ class NYCInteractor : NYCPublicationInteractorInputProtocol {
             case .failure(let error): break
             context?.didFailToLoad(with: error.localizedDescription)
             }
-            //            context?.didFailToLoad(with: "")
-            
-            
         }
     }
     
