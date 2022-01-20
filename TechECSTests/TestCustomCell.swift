@@ -2,12 +2,10 @@
 //  TestCustomCell.swift
 //  TechECSTests
 //
-//  Created by Ahmed Durrani on 25/02/2020.
-//  Copyright © 2020 TeachEase solution. All rights reserved.
 //
 
 import XCTest
-@testable import TechECS
+@testable import NYCTimeTask
 
 class TestCustomCell: XCTestCase {
     var testTable = UITableView()

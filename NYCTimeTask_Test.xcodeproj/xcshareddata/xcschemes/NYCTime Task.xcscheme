@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E25C3F9922E9E5B000D71CCA"
-               BuildableName = "NYCTimeTask.app"
-               BlueprintName = "NYCTimeTask"
-               ReferencedContainer = "container:NYCTimeTask.xcodeproj">
+               BuildableName = "NYCTimeTask_Test.app"
+               BlueprintName = "NYCTimeTask_Test"
+               ReferencedContainer = "container:NYCTimeTask_Test.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E25C3FAD22E9E5B100D71CCA"
-               BuildableName = "NYCTimeTaskTests.xctest"
-               BlueprintName = "NYCTimeTaskTests"
-               ReferencedContainer = "container:NYCTimeTask.xcodeproj">
+               BuildableName = "NYCTimeTask_TestTests.xctest"
+               BlueprintName = "NYCTimeTask_TestTests"
+               ReferencedContainer = "container:NYCTimeTask_Test.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E25C3FB822E9E5B100D71CCA"
-               BuildableName = "NYCTimeTaskUITests.xctest"
-               BlueprintName = "NYCTimeTaskUITests"
-               ReferencedContainer = "container:NYCTimeTask.xcodeproj">
+               BuildableName = "NYCTimeTask_TestUITests.xctest"
+               BlueprintName = "NYCTimeTask_TestUITests"
+               ReferencedContainer = "container:NYCTimeTask_Test.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -65,9 +65,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E25C3F9922E9E5B000D71CCA"
-            BuildableName = "NYCTimeTask.app"
-            BlueprintName = "NYCTimeTask"
-            ReferencedContainer = "container:NYCTimeTask.xcodeproj">
+            BuildableName = "NYCTimeTask_Test.app"
+            BlueprintName = "NYCTimeTask_Test"
+            ReferencedContainer = "container:NYCTimeTask_Test.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -82,9 +82,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E25C3F9922E9E5B000D71CCA"
-            BuildableName = "NYCTimeTask.app"
-            BlueprintName = "NYCTimeTask"
-            ReferencedContainer = "container:NYCTimeTask.xcodeproj">
+            BuildableName = "NYCTimeTask_Test.app"
+            BlueprintName = "NYCTimeTask_Test"
+            ReferencedContainer = "container:NYCTimeTask_Test.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

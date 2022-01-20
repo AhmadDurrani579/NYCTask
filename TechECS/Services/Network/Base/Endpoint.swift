@@ -9,17 +9,10 @@ enum HTTPMethod: String {
 }
 
 enum HTTPContentType {
-    case form, json, multipart
+    case form
 }
 
 typealias HTTPParameters = [String: String]
-
-struct HTTPMultipart {
-    let key: String
-    let filename: String
-    let data: Data
-    let mimeType: String
-}
 
 protocol Endpoint {
     var baseUrl: String { get }
@@ -27,7 +20,6 @@ protocol Endpoint {
     var path: String { get }
     var query: HTTPParameters { get }
     var body: HTTPParameters { get }
-    var multipart: [HTTPMultipart] { get }
     var method: HTTPMethod { get }
     var contentType: HTTPContentType { get }
 }
@@ -49,9 +41,5 @@ extension Endpoint {
     
     var body: HTTPParameters {
         return HTTPParameters()
-    }
-    
-    var multipart: [HTTPMultipart] {
-        return []
     }
 }

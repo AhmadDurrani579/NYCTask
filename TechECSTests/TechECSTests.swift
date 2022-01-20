@@ -5,7 +5,7 @@
 //
 
 import XCTest
-@testable import TechECS
+@testable import NYCTimeTask
 
 class TechECSTests: XCTestCase {
 

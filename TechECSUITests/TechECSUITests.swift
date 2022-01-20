@@ -7,7 +7,6 @@
 //
 
 import XCTest
-@testable import TechECS
 
 class TechECSUITests: XCTestCase {
     var app: XCUIApplication!

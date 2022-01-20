@@ -1,6 +1,4 @@
 //
-//  LoginResponse.swift
-//
 
 import Foundation
 

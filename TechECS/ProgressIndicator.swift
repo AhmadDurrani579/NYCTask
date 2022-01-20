@@ -1,6 +1,5 @@
 //
 //  ProgressIndicator.swift
-//  VIPER-demo
 //
 //  Created by Ahmad .
 //

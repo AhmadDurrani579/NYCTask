@@ -32,14 +32,6 @@ struct NetworkLayer {
             }
             let body = data.compactMap(({ String($0) })).joined(separator: "&")
             request.httpBody = body.data(using: .ascii)
-        case .json:
-            request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-        case .multipart:
-            let boundary = generateBoundary()
-            request.setValue("multipart/form-data; boundary=\(boundary)", forHTTPHeaderField: "Content-Type")
-            var parameters = endpoint.body
-            let body = createDataBody(withParameters: parameters, media: endpoint.multipart, boundary: boundary)
-            request.httpBody = body
         }
         
         func handle(_ result: Result<D,NetworkLayerError>, _ delay: TimeInterval = 0) {
@@ -73,25 +65,4 @@ struct NetworkLayer {
         dataTask.resume()
     }
     
-    static func generateBoundary() -> String {
-        return "Boundary-\(UUID().uuidString)"
-    }
-    
-    static func createDataBody(withParameters params: [String: String]?, media: [HTTPMultipart]?, boundary: String) -> Data {
-        _ = "\r\n"
-        let body = Data()
-        if let parameters = params {
-            for (_, _) in parameters {
-            }
-        }
-        
-        if let media = media {
-            for _ in media {
-            }
-        }
-        
-//        body.append("--\(boundary)--\(lineBreak)")
-        
-        return body
-    }
 }

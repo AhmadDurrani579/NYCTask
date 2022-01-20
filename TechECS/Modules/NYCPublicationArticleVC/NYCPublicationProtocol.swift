@@ -7,7 +7,7 @@
 import Foundation
 import UIKit
 
-protocol NYCPublicationProtocol : class {
+protocol NYCPublicationProtocol : AnyObject {
     var presenter: NYCPublicationPresenterProtocol? { get set }
     // PRESENTER -> INTERACTOR
     
@@ -16,7 +16,7 @@ protocol NYCPublicationProtocol : class {
     func success(_ message: String?)
 }
 
-protocol NYCPublicationInteractorInputProtocol: class {
+protocol NYCPublicationInteractorInputProtocol: AnyObject {
     var presenter: NYCPublicationInteractorOutputProtocol? { get set }
     
     // PRESENTER -> INTERACTOR
@@ -32,7 +32,7 @@ protocol NYCPublicationInteractorOutputProtocol {
     
 }
 
-protocol NYCPublicationPresenterProtocol : class {
+protocol NYCPublicationPresenterProtocol : AnyObject {
     var router : NYCPublicationRouterProtocol? {get set}
 //    var router: GUReceipeRouterProtocol? { get set }
     var interactor: NYCPublicationInteractorInputProtocol? { get set }

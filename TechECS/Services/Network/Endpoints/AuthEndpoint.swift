@@ -41,14 +41,5 @@ enum AuthEndpoint : Endpoint {
         return body
     }
 
-    var multipart: [HTTPMultipart] {
-        let multipart: [HTTPMultipart] = []
-        switch self {
-
-        default:
-            break
-        }
-        return multipart
-    }
 }
 
